@@ -30,3 +30,7 @@ Submissions will be evaluated holistically and based on a combination of effort,
 
 Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file. However, we highly recommend giving the challenge a try, you just might learn something new!
 
+In my implementation of sentiment analysis, I used Python and imported nltk and VADER. I took the raw text and ran it through VADER's SentimentIntensityAnalyzer and got a resulting value of 0.9979. This means that the text has a positive sentiment score. I hypothesized that the sentiment of the text would be positive. I used the VADER library on a series of sentences and got a positive sentiment score (4.68), and also fed each non-stopword to VADER and recieved another positive sentiment score(9.95). 
+
+-Stopwords are defined as a set of commonly used words that don't help discern the sentiment of the text and can possibly sway the sentiment score in either direction.
+
